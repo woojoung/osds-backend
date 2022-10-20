@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.idea/
+_file/*.sqlite3
+
 # C extensions
 *.so
 
@@ -103,6 +106,10 @@ celerybeat.pid
 
 # Environments
 .env
+.env.localhost
+.env.alpha
+.env.production
+
 .venv
 env/
 venv/
@@ -127,3 +134,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+django_collect_static/
+dump_*/
+_tool/*.tgz
+_tool/sqlite3/*.sqlite3
+_tool/sqlite3/*.sqlite3-shm
+_tool/sqlite3/*.sqlite3-wal
